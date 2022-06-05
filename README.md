@@ -91,6 +91,8 @@ The frontend app can be accessed on http://localhost:3000
 
 Open a browser and navigate to: http://localhost:8090/swagger-ui/index.html
 
+![product-screenshot!](/images/swagger-ui.png)
+
 <!-- CONTACT -->
 ## Contact
 
