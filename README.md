@@ -66,8 +66,6 @@ We have to install the Docker Community Edition (CE).
 
 The installation instructions can be followed in the [Official Docker documentation](https://docs.docker.com/get-docker/).
 
-If you're on Windows, you can follow the handy guide on [how to install Docker on Windows](https://learnk8s.io/installing-docker-kubernetes-windows).
-
 ### Run Backend and Frondend app using docker-compose 
 ```
 git clone https://github.com/abdulroufabu/ymath-calculator.git
@@ -82,12 +80,10 @@ cd ymath-calculator
 # Run docker command to build Docker images and run the containers for frondend and backend
 docker compose -f "docker-compose.yml" up -d --build
 
-# Stop docker containers 
-docker-compose down
-
 ```
 We can access the backend endpoints on http://localhost:8090
-And the frontend app can be accessed on http://localhost:3000
+
+The frontend app can be accessed on http://localhost:3000
 
 ## API Documentation
 
