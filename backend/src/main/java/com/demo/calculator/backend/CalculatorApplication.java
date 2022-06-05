@@ -23,7 +23,7 @@ public class CalculatorApplication {
     public Info apiInfo() {
         Info info = new Info();
         info
-                .title("Calculator APIs")
+                .title("Math Calculator")
                 .description("Operation Endpoints of Calculator.")
                 .version("v1.0.0");
         return info;

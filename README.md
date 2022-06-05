@@ -3,7 +3,7 @@ Calculator using React and Spring Boot.
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is a assessment project to demonstrate how to develop and deploy a calculator application using React and Spring Boot in Docker environment.
+This is an assessment project to demonstrate how to develop and deploy a calculator application using React and Spring Boot in Docker environment.
 
 ![product-screenshot!](/images/product-screenshot.png)
 
@@ -27,9 +27,9 @@ This is a assessment project to demonstrate how to develop and deploy a calculat
 Run the backend app from source
 
 ```
-git clone https://github.com/abdulroufabu/my-technical-assessment.git
+git clone https://github.com/abdulroufabu/ymath-calculator.git
 
-cd ymatch-calculator\backend
+cd ymath-calculator\backend
 
 # Building
 mvn clean install
@@ -45,9 +45,9 @@ We can access the backend endpoints on http://localhost:8090
 * NodeJS > 0.10.x
 
 ```
-git clone https://github.com/abdulroufabu/my-technical-assessment.git
+git clone https://github.com/abdulroufabu/ymath-calculator.git
 
-cd ymatch-calculator\client
+cd ymath-calculator\client
 
 # Install NPM packages
 npm install
@@ -70,21 +70,30 @@ If you're on Windows, you can follow the handy guide on [how to install Docker o
 
 ### Run Backend and Frondend app using docker-compose 
 ```
-git clone https://github.com/abdulroufabu/my-technical-assessment.git
+git clone https://github.com/abdulroufabu/ymath-calculator.git
 
-cd ymatch-calculator\backend
+cd ymath-calculator\backend
 
 # Package spring boot backend app using maven
 mvn clean package
 
-cd ymatch-calculator
+cd ymath-calculator
 
-# Run below command to build Docker images and start the containers for frondend and backend
+# Run docker command to build Docker images and run the containers for frondend and backend
 docker compose -f "docker-compose.yml" up -d --build
+
+# Stop docker containers 
+docker-compose down
 
 ```
 We can access the backend endpoints on http://localhost:8090
 And the frontend app can be accessed on http://localhost:3000
+
+## API Documentation
+
+### Access Swagger UI
+
+Open a browser and navigate to: http://localhost:8090/swagger-ui/index.html
 
 <!-- CONTACT -->
 ## Contact

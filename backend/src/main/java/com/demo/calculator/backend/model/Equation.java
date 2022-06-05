@@ -14,7 +14,7 @@ public class Equation {
 	public Equation(Double leftOperand, Double rightOperand, Double result, String operation) {
 		this.leftOperand = leftOperand;
 		this.rightOperand = rightOperand;
-		this.result = Math.round(result*Math.pow(10, 8))/Math.pow(10, 8); // Rounding off the number
+		this.result = Math.round(result*Math.pow(10, 4))/Math.pow(10, 4); // Rounding off the number
 		this.operation = operation;
 	}
 
