@@ -42,7 +42,7 @@ We can access the backend endpoints on http://localhost:8090
 ### Frontend React App
 
 #### Prerequisites
-* NodeJS > 0.10.x
+* NodeJS > 16.14.x
 
 ```
 git clone https://github.com/abdulroufabu/ymath-calculator.git
